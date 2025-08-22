@@ -1,6 +1,6 @@
 package Day8;
 public class swapNumbers{
-    public static void swapNumbers(int a, int b){
+    public static void SwapNumbers(int a, int b){
         a = a+b;
         b = a-b;
         a = a-b;
@@ -10,6 +10,6 @@ public class swapNumbers{
     public static void main(String[] args) {
         int a = 199;
         int b = 56;
-        swapNumbers(a, b);
+        SwapNumbers(a, b);
     }
 }
